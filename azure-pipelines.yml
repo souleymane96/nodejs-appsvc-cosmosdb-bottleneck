@@ -158,3 +158,7 @@ stages:
           
     - publish: $(System.DefaultWorkingDirectory)/loadTest
       artifact: results
+      
+      failureCriteria: 
+        - avg(response_time_ms) > 100
+        - percentage(error) > 20
