@@ -10,11 +10,11 @@ pool:
   vmImage: ubuntu-latest
 
 variables:
-  webAppName: '<Name of your webapp>'
-  serviceConnection: '<Name of your webARM Service connection>'
-  azureSubscriptionId: '<Azure subscriptionId>'
-  loadTestResource: '<Name of your load test resource>'
-  loadTestResourceGroup: '<Name of your load test resource group>'
+  webAppName: 'mysupertestwebapp06072022'
+  serviceConnection: 'LHG Azure Subscription - Service Connection'
+  azureSubscriptionId: '2b1b7bde-4c90-492b-bf8e-2b260cec7a20'
+  loadTestResource: 'myloadtest06072022'
+  loadTestResourceGroup: 'TEST06072022-RG'
   location: 'EAST US'
 
 
