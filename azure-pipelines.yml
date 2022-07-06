@@ -155,10 +155,7 @@ stages:
             "value": "$(webAppName).azurewebsites.net"
             }
           ]
-        failureCriteria: 
-          - avg(response_time_ms) > 100
-          - percentage(error) > 20
-        
+          
     - publish: $(System.DefaultWorkingDirectory)/loadTest
       artifact: results
       
